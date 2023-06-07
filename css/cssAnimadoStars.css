@@ -1,0 +1,90 @@
+
+
+#sol{
+    transition-duration: 200ms;
+    animation: movSol linear infinite 3.5s;
+    box-shadow: 1px 1px 40px 5px orange;
+}
+
+
+
+@keyframes movSol {
+    0%{
+        top: 10%;
+        left: 2%;
+    }
+
+    20%{
+        top: 10%;
+        left: 2.5%;
+    }
+    50%{
+        box-shadow: 1px 1px 40px 20px orange;
+        filter: blur(1px);
+    }
+    40%{
+        left: 2.5%;
+        top: 10.5%;
+    }
+
+    80%{
+        left: 2%;
+        top: 10.5%;
+    }
+}
+
+
+
+#lua{
+    transition-duration: 200ms;
+    animation: movLua linear infinite 1.5s;
+    box-shadow: 1px 1px 40px 5px orange;
+}
+
+
+@keyframes movLua {
+    0%{
+        top: 15%;
+        left: 35%;
+    }
+    20%{
+        top: 15%;
+        left: 35.5%;
+    }
+    40%{
+        top: 15.5%;
+        left: 35.5%;
+    }
+    80%{
+        top: 15.5%;
+        left: 34.5%;
+    }
+}
+
+
+#estrela1,#estrela3,#estrela5,#estrela7,#estrela9,#estrela11,#estrela13,#estrela15,#estrela17,#estrela19{
+    transition-duration: 200ms;
+    animation: brilhoEstrela linear infinite 2.5s;
+}
+
+
+@keyframes brilhoEstrela {
+    50%{
+        box-shadow: none;
+    }
+}
+
+
+
+#estrela2,#estrela4,#estrela6,#estrela8,#estrela10,#estrela12,#estrela14,#estrela16,#estrela18,#estrela20{
+    transition-duration: 200ms;
+    animation: brilhoEstrela linear infinite 2s;
+    box-shadow: none;
+}
+
+
+@keyframes brilhoEstrela {
+    50%{
+        box-shadow: 1px 1px 40px 8px #fff;
+    }
+}

@@ -1,0 +1,598 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+
+#box{
+    transition-duration: 200ms;
+    animation: movBox alternate infinite 2s;
+    position: absolute;
+}
+
+@keyframes movBox {
+    0%{
+        top: 55%;
+        left: 15%;
+        rotate: 45deg;
+    }
+
+    50%{
+        top: 58%;
+        rotate: 55deg;
+    }
+
+    100%{
+        rotate: 65deg;
+    }
+}
+
+#food1, #food3, #food7, #food9, #food11{
+    top:60%;
+    left: 20%;
+    z-index: -1;
+}
+
+
+#food5{
+    top:69%;
+    left: 20%;
+    z-index: -1;
+}
+
+
+#food2, #food4, #food6, #food8, #food10, #food12{
+    top:65%;
+    left: 25%;
+    z-index: -1;
+}
+
+
+#food13 ,#food14 {
+    top:75%;
+    left: 25%;
+    z-index: -1;
+}
+
+
+
+#food1{
+    transition-duration: 200ms;
+    animation: movF1 linear infinite 1.5s;
+    background-color: brown;
+}
+
+@keyframes movF1 {
+    0%{
+        rotate: 0deg;
+    }
+    20%{
+        rotate:180deg;
+    }
+    45%{
+        top:60%;
+        left: 20%;
+    }
+    
+    100%{
+        top:0%;
+        left:80%;
+    }
+}
+
+#food2{
+    transition-duration: 200ms;
+    animation: movF2 linear infinite 2.5s;
+    background-color:blue
+}
+
+@keyframes movF2 {
+    0%{
+        rotate: 0deg;
+    }
+
+    100%{
+        rotate: 360deg;
+        top:20%;
+        left:90%;
+    }
+}
+
+
+#food3{
+    transition-duration: 200ms;
+    animation: movF3 linear infinite 1.5s;
+    background-color: purple;
+}
+
+@keyframes movF3 {
+    0%{
+        rotate: 0deg;
+    }
+
+    100%{
+        rotate: 360deg;
+        top:40%;
+        left:95%;
+    }
+}
+
+
+
+#food4{
+    transition-duration: 200ms;
+    animation: movF4 linear infinite 1.5s;
+    background-color: orange;
+}
+
+@keyframes movF4 {
+    0%{
+        rotate: 0deg;
+    }
+
+    100%{
+        rotate: 360deg;
+        top:0%;
+        left:90%;
+    }
+}
+
+
+
+#food5{
+    transition-duration: 200ms;
+    animation: movF5 linear infinite 3.5s;
+    background-color: yellow;
+}
+
+@keyframes movF5 {
+    35%{
+        rotate: 0deg;
+        top:69%;
+        left: 20%;
+    }
+
+    100%{
+        rotate: 360deg;
+        top:0%;
+        left:98%;
+    }
+}
+
+
+#food6{
+    transition-duration: 200ms;
+    animation: movF6 linear infinite 2.5s;
+    background-color: cornflowerblue;
+}
+
+@keyframes movF6 {
+    0%{
+        rotate: 0deg;
+    }
+
+    100%{
+        rotate: 360deg;
+        top:0%;
+        left:75%;
+    }
+}
+
+
+#food7{
+    transition-duration: 200ms;
+    animation: movF6 linear infinite 2s;
+    background-color: plum;
+}
+
+@keyframes movF6 {
+    0%{
+        rotate: 0deg;
+    }
+
+    100%{
+        rotate: 360deg;
+        top:0%;
+        left:80%;
+    }
+}
+
+#food8{
+    transition-duration: 200ms;
+    animation: movF8 linear infinite 3.5s;
+    background-color: rgb(100, 237, 225);
+}
+
+@keyframes movF8 {
+    0%{
+        rotate: 0deg;
+    }
+
+    100%{
+        rotate: 360deg;
+        top:0%;
+        left:75%;
+    }
+}
+
+#food9{
+    transition-duration: 200ms;
+    animation: movF9 linear infinite 3s;
+    background-color: rgb(55, 219, 55);
+}
+
+@keyframes movF9 {
+    0%{
+        rotate: 0deg;
+    }
+
+    
+
+    100%{
+        rotate: 360deg;
+        top:20%;
+        left:98%;
+    }
+}
+
+
+#food10{
+    transition-duration: 200ms;
+    animation: movF9 linear infinite 1.5s;
+    background-color: rgb(253, 186, 0);
+}
+
+@keyframes movF9 {
+    0%{
+        rotate: 0deg;
+    }
+
+    
+
+    100%{
+        rotate: 360deg;
+        top:27%;
+        left:98%;
+    }
+}
+
+#food11{
+    transition-duration: 200ms;
+    animation: movF9 linear infinite 3s;
+    background-color: rgb(182, 216, 182);
+}
+
+@keyframes movF9 {
+    0%{
+        rotate: 0deg;
+    }
+
+    100%{
+        rotate: 360deg;
+        top:45%;
+        left:98%;
+    }
+}
+
+
+
+
+#food12{
+    transition-duration: 200ms;
+    animation: movF12 linear infinite 4s;
+    background-color: brown;
+
+}
+
+@keyframes movF12 {
+    
+    40%{
+        rotate: 90deg;
+        top:75%;
+        left: 25%;
+    }
+
+    100%{
+        top:35%;
+        left:90%;
+        rotate: 180deg;
+    }
+}
+
+
+
+#food13{
+    transition-duration: 200ms;
+    animation: movF13 linear infinite 6s;
+    background-color: green;
+}
+
+@keyframes movF13 {
+    
+    40%{
+        rotate: 90deg;
+        top:75%;
+        left: 25%;
+    }
+
+    100%{
+        top:25%;
+        left:90%;
+        rotate: 180deg;
+    }
+}
+
+
+
+#food14{
+    transition-duration: 200ms;
+    animation: movF14 linear infinite 3s;
+    background-color: red;
+    top:60%;
+    left:22%;
+}
+
+@keyframes movF14 {
+
+    /* 10%{
+        rotate: 0deg;
+        top:55%;
+        left:27%;
+    }
+
+    20%{
+        top:50%;
+        left:32%;
+    }
+
+    30%{
+        top:45%;
+        left:40%;
+    }
+
+    40%{
+        top:43%;
+        left:56%;
+    }
+
+    50%{
+        top:45%;
+        left:60%;
+    }
+
+    60%{
+        top:50%;
+        left:68%;
+    }
+
+    70%{
+        rotate: 360deg;
+        top:55%;
+        left:74%;
+    }
+
+    80%{
+        top:62%;
+        left:82%;
+    }
+
+    90%{
+        top:72%;
+        left:91%;
+    }
+
+    100%{
+        top:85%;
+        left:99%;
+    } */
+
+    40%{
+        rotate: 90deg;
+        top:75%;
+        left:25%;
+        
+    }
+
+    100%{
+        top:0%;
+        left:65%;
+        rotate: 180deg;
+    }
+}
+
+
+
+
+
+.linha1{
+    transition-duration: 200ms;
+    animation: lin1 linear infinite 2s;
+    background-color: #fff;
+}
+
+@keyframes lin1 {
+    
+    40%{
+        rotate: 0deg;
+        top:75%;
+        left:25%;
+    }
+
+    100%{
+        top:0%;
+        left:55%;
+        rotate: 2840deg;
+    }
+}
+
+
+.linha2{
+    transition-duration: 200ms;
+    animation: lin2 linear infinite 3s;
+    background-color: yellow;
+}
+
+@keyframes lin2 {
+    
+    40%{
+        rotate: 0deg;
+        top:75%;
+        left:25%;
+    }
+
+    100%{
+        top:3%;
+        left:75%;
+        rotate: 2840deg;
+    }
+}
+
+
+
+.linha3{
+    transition-duration: 200ms;
+    animation: lin3 linear infinite 1.7s;
+    background-color: #ff1616;
+}
+
+@keyframes lin3 {
+    
+    40%{
+        rotate: 0deg;
+        top:75%;
+        left:25%;
+    }
+
+    100%{
+        top:10%;
+        left:45%;
+        rotate: 2840deg;
+    }
+}
+
+
+
+.linha4{
+    transition-duration: 200ms;
+    animation: lin4 linear infinite 1.2s;
+    border: 0.5px solid rgba(0, 0, 0, 0.589);
+}
+
+@keyframes lin4 {
+    
+    40%{
+        rotate: 0deg;
+        top:75%;
+        left:25%;
+    }
+
+    100%{
+        top:0%;
+        left:35%;
+        rotate: 2840deg;
+    }
+}
+
+.linha5{
+    transition-duration: 200ms;
+    animation: lin5 linear infinite 1.9s;
+    border: 0.5px solid rgba(0, 0, 0, 0.589);
+}
+
+@keyframes lin5 {
+    
+    40%{
+        rotate: 0deg;
+        top:75%;
+        left:25%;
+    }
+
+    100%{
+        top:0%;
+        left:80%;
+        rotate: 2840deg;
+    }
+}
+
+.linha6{
+    transition-duration: 200ms;
+    animation: lin6 linear infinite 3.5s;
+    background-color: rgb(106, 155, 34);
+}
+
+@keyframes lin6 {
+    0%{
+        top: 60%;
+        left: 22%;
+    }
+
+    40%{
+        rotate: 0deg;
+        top:60%;
+        left:25%;
+    }
+
+    100%{
+        top:20%;
+        left:95%;
+        rotate: 2840deg;
+    }
+}
+
+.linha7{
+    transition-duration: 200ms;
+    animation: lin7 linear infinite 2s;
+    background-color: #fff;
+    z-index: -1;
+    border: 0.5px solid rgba(0, 0, 0, 0.589);
+}
+
+@keyframes lin7 {
+    
+    0%{
+        top: 60%;
+        left: 22%;
+    }
+
+    40%{
+        rotate: 0deg;
+        top:60%;
+        left:25%;
+    }
+
+    100%{
+        top:35%;
+        left:95%;
+        rotate: 2840deg;
+    }
+}
+
+.linha8{
+    transition-duration: 200ms;
+    animation: lin8 linear infinite 2s;
+    background-color: #fff;
+}
+
+@keyframes lin8 {
+    
+    40%{
+        rotate: 0deg;
+        top:70%;
+        left:25%;
+    }
+
+    100%{
+        top:50%;
+        left:95%;
+        rotate: 2840deg;
+    }
+}
